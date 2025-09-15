@@ -22,7 +22,7 @@ impl VolumeState {
 
     fn notify(&self) {
         let mut notification = Notification::new();
-        notification.appname("vol-notify").timeout(1000);
+        notification.appname("volume-notify-rs").timeout(1000);
 
         match self {
             Self::Muted => {
