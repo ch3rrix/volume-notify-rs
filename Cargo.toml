@@ -1,0 +1,11 @@
+[package]
+name = "volume-notify-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+notify-rust = "4.11.7"
+
+[[bin]]
+name = "volume-notify-rs"
+path = "main.rs"
